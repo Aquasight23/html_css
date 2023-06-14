@@ -1,0 +1,253 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+header{
+    background-color:khaki;
+}
+body{
+    background-color: honeydew;
+}
+.wrapper{
+    width: 80%;
+}
+.logo{
+   width: 50%;
+   float: left;
+   margin: 10px 0;
+}
+.logo h1{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.social_icon{
+   width: 50%;
+   float: left;
+}
+.social_icon a{
+    color: white;
+    text-decoration: none;
+    background: blue;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 0%;
+}
+.social_icon a:hover{
+    background: white;
+    color: blue;
+}
+nav{
+    background-color: peru ;
+    border-bottom: 2px solid black;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px 20px;
+    display: inline-block;
+}
+nav a:first-child{
+    padding: 0%;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: blue                                                                                                                                                                                         ;
+}
+#content{
+    margin: 20px 0 20px 0;
+}
+.boxes{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.box{
+    width: 50%;
+    background-color: white;
+    padding: 15px;
+}
+.box img{
+    width: 100%;
+    border-radius: 15px;
+}
+.box h2 a{
+    color: black;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 0;
+    text-decoration: none;
+    display: inline-block;
+}
+.box h2 a:hover{
+    text-decoration: underline;
+}
+.box p{
+    color: black;
+    font-size: 18px;
+}
+.box .read{
+    color: black;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 0;
+    text-decoration: none;
+    display: block;
+    background-color: chocolate;
+    margin: 10px 0;
+    text-align: center;
+    color: white;
+}
+.box .read:hover{
+    color: white;
+    background-color: violet;
+}
+#about{
+    background-color: gray;
+    padding: 10px;
+}
+#about h3{
+    text-align: center;
+    padding: 20px 0;
+    font: bold 30px georgia;
+    color:darkolivegreen;
+    text-decoration: underline;
+}
+#about p{
+    text-align: center;
+    padding: 0;
+    color: black;
+    padding-bottom: 10px;
+}
+#about a{
+    color: blue;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+#about a:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: black;
+}
+.wrapper{
+    width: 80%;
+}
+.boxess{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.box1{
+    width:33.3%;
+    background-color: black;
+    padding: 15px 10px;
+}
+.box1 p{
+    color: white;
+    font-size: 15px;
+}
+.box1 h4 a{
+     font: bold 15px georgia;
+     text-decoration: none;
+     display: block;
+     margin-left: 50%;
+     color: burlywood;
+     padding: 10px 10px;
+}
+.box1 h4 a:hover{
+    text-decoration: underline;
+    color: cadetblue;
+}
+.box1 i{
+    color: white;
+    padding: 40px 35px;
+    float: left;
+    margin-left: 30px;
+}
+.fa-facebook:hover{
+    color: rgb(34, 61, 212);
+    transition: 0.2s;  
+}
+.fa-instagram:hover{
+    color: rgb(158, 42, 81);
+    transition: 0.2s;  
+}
+.fa-twitter:hover{
+    color: rgb(34, 61, 212);
+    transition: 0.2s;  
+}
+
+
+/* About page */
+
+#about_page img{
+    width:100%;
+}
+
+
+/* Annapurna page */
+
+#content_page img{
+    width: 100%;
+}
+#content_page h2{
+    font-size: 40px;
+    color: black;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px 0;
+}
+.iti_table{
+    width: 400px;
+    border: 1px solid black;
+}
+.iti_table tr{
+    padding: 10px 0;
+}
+.odd{
+    background-color: gray;
+}
+
+
+/* Langtang page */
+
+#content_page img{
+    width: 100%;
+}
+#content_page h2{
+    font-size: 40px;
+    color: black;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px 0;
+}
+
+/* Contact page */
+#contact_page{
+    margin: 20px 0;
+    padding: 20px 0;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+}
+.col{
+    width: 50%;
+}
+.row .col h4{
+    font-size: medium;
+    padding: 5px 0;
+}
